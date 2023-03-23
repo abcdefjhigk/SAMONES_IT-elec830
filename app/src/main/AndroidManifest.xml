@@ -12,6 +12,18 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
+            android:name=".Act5"
+            android:exported="false" />
+        <activity
+            android:name=".Act4"
+            android:exported="false" />
+        <activity
+            android:name=".Act3"
+            android:exported="false" />
+        <activity
+            android:name=".Act2"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
